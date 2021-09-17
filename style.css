@@ -1,0 +1,207 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    background-image: linear-gradient(to top right, #ff4242, #ff9442, #ffef42, #4542ff, #7f54ff);
+}
+.heading
+{
+font-size: 30px;
+width: 100%;
+margin: 0px; 
+background: linear-gradient(#ff5454 0%, #ff8754 50%, #fcff54 100%);
+color: #171717;
+}
+.heading:hover{
+    background: linear-gradient(#5479ff 0%, #6054ff 50%, #7f54ff 100%);
+    color: white;
+}
+.btn-7 {
+    font-size: 25px;
+    background: linear-gradient(#4d4dff 0%, #8e4dff 100%);
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 5px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    box-shadow: 2px 2px 5px grey;
+}
+
+.btn-7 {
+    background: linear-gradient(#4d4dff 0%, #8e4dff 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+}
+
+.btn-7 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-7:before,
+.btn-7:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: #ff8754;
+    
+    transition: all 0.3s ease;
+}
+
+.btn-7:before {
+    height: 0%;
+    width: 2px;
+}
+
+.btn-7:after {
+    width: 0%;
+    height: 2px;
+}
+
+.btn-7:hover {
+    color: #ff8754;
+    background: transparent;
+}
+
+.btn-7:hover:before {
+    height: 100%;
+}
+
+.btn-7:hover:after {
+    width: 100%;
+}
+
+.btn-7 span:before,
+.btn-7 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #4d4dff;
+    
+    transition: all 0.3s ease;
+}
+
+.btn-7 span:before {
+    width: 2px;
+    height: 0%;
+}
+
+.btn-7 span:after {
+    height: 2px;
+    width: 0%;
+}
+
+.btn-7 span:hover:before {
+    height: 100%;
+}
+
+.btn-7 span:hover:after {
+    width: 100%;
+}
+.p-tag
+{
+font-size: 18px;
+
+border-radius: 5px;
+background: linear-gradient(#ff5454 0%, #ff8754 50%, #fcff54 100%);
+color: #171717;
+
+}
+.p-tag:hover{
+    background: linear-gradient(#5479ff 0%, #6054ff 50%, #7f54ff 100%);
+    color: white;
+}
+.copyright_footer{
+    position: fixed;
+    background: linear-gradient(#ff5454 0%, #ff8754 50%, #fcff54 100%);
+    bottom: 0;
+    width: 100%;
+    color: #171717;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px white;
+} .copyright_footer:hover{
+    background: linear-gradient(#5479ff 0%, #6054ff 50%, #7f54ff 100%);
+    color: white;
+    text-shadow: 5px 5px 5px #383778;
+}
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+@keyframes example {
+   0%{
+       box-shadow: 5px 5px 5px #2f6aad;
+       border: 5px solid #348feb;
+
+   }
+   25%{
+    box-shadow: 5px 5px 5px #3b3bad;
+    border: 5px solid #4634eb;
+
+   }
+   50%{
+    box-shadow: 5px 5px 5px #7e3bad;
+    border: 5px solid #9b34eb;
+
+    }
+    75%{
+    box-shadow: 5px 5px 5px #413bad;
+    border: 5px solid #504aff;
+
+    }
+    100%{
+    box-shadow: 5px 5px 5px #3b6dad;
+    border: 5px solid #5c9aff;
+
+    }
+}
+canvas:hover{
+    animation-name: sunset;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes sunset {
+    0%{
+        box-shadow: 5px 5px 5px #9c2525;
+        border: 5px solid #ff4242;
+ 
+    }
+    25%{
+     box-shadow: 5px 5px 5px #c26f30;
+     border: 5px solid #ff9442;
+ 
+    }
+    50%{
+     box-shadow: 5px 5px 5px #bda52f;
+     border: 5px solid #ffef42;
+ 
+     }
+     75%{
+     box-shadow: 5px 5px 5px #bd682f;
+     border: 5px solid #ff8142;
+ 
+     }
+     100%{
+     box-shadow: 5px 5px 5px #bd2f2f;
+     border: 5px solid #ff5252;
+ 
+     }
+ }
